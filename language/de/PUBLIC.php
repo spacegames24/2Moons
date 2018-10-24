@@ -64,16 +64,16 @@ $LNG['registerUsername']			= 'Nickname';
 $LNG['registerUsernameDesc']		= 'Der Nickname muss mindestens 3 und darf maximal 25 Zeichen und darf nur aus Zahlen, Buchstaben, Punkte, Binde- und Unterstriche und Leerzeichen bestehen';
 $LNG['registerPassword']			= 'Passwort';
 $LNG['registerPasswordDesc']		= 'Das Passwort muss mindestens 8 Zeichen lang sein.';
-$LNG['registerPasswordReplay']		= 'Passwort widerhohlen';
-$LNG['registerPasswordReplayDesc']	= 'Bitte wiederhole zur Sicherheit die Eingabe deines Paswortes!';
+$LNG['registerPasswordReplay']		= 'Passwort wiederholen';
+$LNG['registerPasswordReplayDesc']	= 'Bitte wiederhole zur Sicherheit die Eingabe deines Passwortes!';
 $LNG['registerEmail']				= 'E-Mail';
-$LNG['registerEmailDesc']			= 'Bitte geben deine E-Mail-Adresse ein!';
-$LNG['registerEmailReplay']			= 'E-Mail wiederhohlen';
+$LNG['registerEmailDesc']			= 'Bitte gib deine E-Mail-Adresse ein!';
+$LNG['registerEmailReplay']			= 'E-Mail wiederholen';
 $LNG['registerEmailReplayDesc']		= 'Bitte wiederhole zur Sicherheit die Eingabe deiner E-Mail-Adresse!';
 $LNG['registerLanguage']			= 'Sprache';
 $LNG['registerReferral']			= 'Geworben von:';
 $LNG['registerCaptcha']				= 'Sicherheitscode';
-$LNG['registerCaptchaDesc']			= 'Bitte gebe die untenstehenden Zeichen ohne Leerstellen in das leere Feld ein. Groß- und Kleinschreibung müssen nicht beachtet werden. Solltest du das Bild auch nach mehrfachem Neuladen nicht entziffern können, wenden Sie sich an den Administrator dieser Seite.';
+$LNG['registerCaptchaDesc']			= 'Bitte gebe die untenstehenden Zeichen ohne Leerstellen in das leere Feld ein. Groß- und Kleinschreibung müssen nicht beachtet werden. Solltest du das Bild auch nach mehrfachem Neuladen nicht entziffern können, wennden Sie sich an den Administrator dieser Seite.';
 $LNG['registerCaptchaReload']		= 'Captcha neuladen.';
 $LNG['registerRules']				= 'Regeln';
 $LNG['registerRulesDesc']			= 'Ich bin mit den %s einverstanden.';
@@ -82,7 +82,7 @@ $LNG['registerBack']				= 'Zurück';
 $LNG['registerNext']				= 'Weiter';
 
 $LNG['registerErrorUniClosed']		= 'Die Registrierung ist in diesem Universum geschlossen. Das tut uns Leid!';
-$LNG['registerErrorUsernameEmpty']	= 'Du hast keinen Nicknamen eingeben!';
+$LNG['registerErrorUsernameEmpty']	= 'Du hast keinen Nicknamen eingegeben!';
 $LNG['registerErrorUsernameChar']	= 'Im Nickname sind nur Zahlen, Buchstaben, Leerzeichen, _, -, . erlaubt!';
 $LNG['registerErrorUsernameExist']	= 'Der Nickname ist bereits vergeben!';
 $LNG['registerErrorPasswordLength']	= 'Das Passwort muss mindestens 6 Zeichen lang sein!';
@@ -99,7 +99,7 @@ $LNG['registerMailVertifyError']	= 'Fehler beim Versenden der Mail: %s';
 
 $LNG['registerMailCompleteTitle']	= 'Willkommen bei %s!';
 
-$LNG['registerSendComplete']		= 'Vielen Dank für die Registration. Du erhälst in Kürze eine E-Mail mit weiteren Informationen.';
+$LNG['registerSendComplete']		= 'Vielen Dank für die Registration. Du erhältst in Kürze eine E-Mail mit weiteren Informationen.';
 
 $LNG['registerWelcomePMSenderName']	= 'Administrator';
 $LNG['registerWelcomePMSubject']	= 'Willkommen';
@@ -107,8 +107,8 @@ $LNG['registerWelcomePMText']		= 'Willkommen bei %s! Baue zuerst ein Solarkraftw
 
 //Vertify
 
-$LNG['vertifyNoUserFound']			= 'Ungültiger Anfrage!';
-$LNG['vertifyAdminMessage']			= 'Der Username "%s" wurder aktiviert!';
+$LNG['vertifyNoUserFound']			= 'Ungültige Anfrage!';
+$LNG['vertifyAdminMessage']			= 'Der Username "%s" wurde aktiviert!';
 
 
 //lostpassword
@@ -117,16 +117,16 @@ $LNG['passwordUsername']			= 'Benutzernamen';
 $LNG['passwordMail']				= 'E-Mail';
 $LNG['passwordCaptcha']				= 'Sicherheitscode';
 $LNG['passwordSubmit']				= 'Absenden';
-$LNG['passwordErrorUsernameEmpty']	= 'Du hast keinen Benuternamen angegeben!';
+$LNG['passwordErrorUsernameEmpty']	= 'Du hast keinen Benutzernamen angegeben!';
 $LNG['passwordErrorMailEmpty']		= 'Du hast keine E-Mail-Adresse angegeben!';
-$LNG['passwordErrorUnknown']		= 'Es könnte kein Benutzterkonto mit den Daten gefunden werden.';
+$LNG['passwordErrorUnknown']		= 'Es könnte kein Benutzerkonto mit den Daten gefunden werden.';
 $LNG['passwordErrorOnePerDay']		= 'Das Kennwort für dieses Benutzerkonto wurde in den letzten 24 Stunden bereits einmal angefordert. Aus Sicherheitsgründen kann das Kennwort eines Benutzers nur einmal pro Tag angefordert werden. Sie können das Kennwort für dieses Benutzerkonto in 24 Stunde(n) erneut anfordern. ';
 
 $LNG['passwordValidMailTitle']		= 'Kennwort vergessen auf der Website: %s';
 $LNG['passwordValidMailSend']		= 'Du erhälst in Kürze eine E-Mail mit weiteren Informationen.';
 
 $LNG['passwordValidInValid']		= 'Ungültiger Anfrage!';
-$LNG['passwordChangedMailSend']		= 'Du erhälst in Kürze eine E-Mail mit deinem neuen Kennwort.';
+$LNG['passwordChangedMailSend']		= 'Du erhältst in Kürze eine E-Mail mit deinem neuen Kennwort.';
 $LNG['passwordChangedMailTitle']	= 'Neues Kennwort auf der Website: %s';
 
 $LNG['passwordBack']				= 'Zurück';
@@ -135,7 +135,7 @@ $LNG['passwordNext']				= 'Weiter';
 //case default
 
 $LNG['login_error_1']				= 'Falscher Benutzername/Passwort!';
-$LNG['login_error_2']				= 'Jemand hat sich von einem anderem PC in deinem Account eingeloggt!';
+$LNG['login_error_2']				= 'Jemand hat sich von einem anderen PC in deinen Account eingeloggt!';
 $LNG['login_error_3']				= 'Deine Session ist abgelaufen!';
 $LNG['login_error_4']				= 'Es gab einen Fehler bei der externen Autorisierung, bitte versuche Sie es später noch einmal!';
 
